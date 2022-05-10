@@ -1,6 +1,6 @@
 # Generative image models
 
-[![hedrergudene - VAE_SSL_Med](https://img.shields.io/static/v1?label=hedrergudene&message=VAE_SSL_Med&color=blue&logo=github)](https://github.com/hedrergudene/VAE_SSL_Med "Go to GitHub repo")
+[![hedrergudene - GenImgModels-Baseline](https://img.shields.io/static/v1?label=hedrergudene&message=GenImgModels-Baseline&color=blue&logo=github)](https://github.com/hedrergudene/GenImgModels-Baseline "Go to GitHub repo")
 [![Repo size](https://img.shields.io/github/repo-size/hedrergudene/VAE_SSL_Med?style=plastic)](#reposize)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
