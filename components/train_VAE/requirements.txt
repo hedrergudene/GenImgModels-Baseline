@@ -1,0 +1,8 @@
+fire
+opencv-python==4.5.5.62
+numpy==1.21.5
+transformers==4.17.0
+torch
+torchvision
+wandb==0.12.12
+kaggle==1.5.12

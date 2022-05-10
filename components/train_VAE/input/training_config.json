@@ -1,0 +1,21 @@
+{
+    "output_dir":"output/model_checkpoints",
+    "learning_rate":1e-4,
+    "weight_decay":1e-2,
+    "batch_size":32,
+    "epochs":20,
+    "early_stopping":5,
+    "latent_dim":64,
+    "device":"cuda",
+    "use_amp":1,
+    "num_workers_dataloader":4,
+    "reconstruction_loss":"perceptual",
+    "reduction_loss":"mean",
+    "beta_loss":2,
+    "warmup_epoch_loss":1,
+    "C_loss":0,
+    "scheduler_mode":"max",
+    "scheduler_factor":0.5,
+    "scheduler_patience":3,
+    "seed":123
+}

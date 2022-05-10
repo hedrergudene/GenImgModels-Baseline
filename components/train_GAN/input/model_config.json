@@ -1,0 +1,10 @@
+{   
+    "model_backbone":"facebook/deit-small-patch16-224",
+    "generator_style":"ResNet18",
+    "generator_depth":2,
+    "discriminator_style":"HuggingFace",
+    "discriminator_depth":16,
+    "dim":768,
+    "kernel_size":9,
+    "patch_size":7
+}
