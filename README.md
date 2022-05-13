@@ -115,6 +115,10 @@ Plus, you have the option to use the Kaggle API to store your datasets. To do so
 By specifying those parameters, you should be ready to follow the steps contained in the next section. On it, we will make use of the already prepared [birds400 dataset](https://www.kaggle.com/datasets/antoniozarauzmoreno/birds400) (make sure you clone it to your Kaggle account before using it). If data has already been downloaded, unzipped and stored in the `input` folder, you can ignore the Kaggle credentials.
 
 
+## Monitoring integration
+These components have been integrated with Weights and Biases to track all metrics, hyperparameters, callbacks and GPU performance. You can check an example of `train_VAE` component monitoring here: [![](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-28-gray.svg)](https://wandb.ai/azm630/GenImgModels_VAE)
+
+
 ## Quickstart code
 You can start by using this notebook [![Open Notebook](https://colab.research.google.com/assets/colab-badge.svg)](/Quickstart.ipynb) in which you can easily get up-to-speed with your own data and customise parameters.
 
