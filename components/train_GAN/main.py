@@ -82,7 +82,7 @@ def main(
     with open(wandb_config, 'r') as f:
         wandb_dct = json.load(f)
     wandb.login(key=wandb_dct['WB_KEY'])
-    wandb.init(project=wandb_dct['WB_PROJECT'], entity=wandb_dct['WB_ENTITY'], group = data_flag, config=train_dct)
+    wandb.init(project=wandb_dct['WB_PROJECT']+'_GAN', entity=wandb_dct['WB_ENTITY'], group = data_flag, config=train_dct)
     # Fitter
     log.info(f"Start fitter training:")
     _ = fitter.fit(train_loader = train_dtl,
