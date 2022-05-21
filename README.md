@@ -10,8 +10,9 @@
 - [2. Repo structure](#repo-structure)
 - [3. Notions on generative models](#notions-on-generative-models)
 - [4. How to use your own dataset](#use-your-own-dataset)
-- [5. Quickstart code](#quickstart-code)
-- [6. License](#license)
+- [5. Monitoring integration](#monitoring-integration)
+- [6. Quickstart code](#quickstart-code)
+- [7. License](#license)
 ---
 
 ## Introduction
